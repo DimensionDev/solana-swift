@@ -18,7 +18,7 @@ let package = Package(
     ],
     dependencies: [
         // Main depedencies
-        .package(url: "https://github.com/MainasuK/web3swift.git", branch: "fix-xcode-16"),
+        .package(url: "https://github.com/DimensionDev/web3swift.git", branch: "fix-xcode-26"),
         .package(url: "https://github.com/bitmark-inc/tweetnacl-swiftwrap.git", from: "1.0.2"),
         .package(url: "https://github.com/bigearsenal/task-retrying-swift.git", from: "2.0.0"),
 

@@ -57,10 +57,10 @@
     {
       "identity" : "web3swift",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/MainasuK/web3swift.git",
+      "location" : "https://github.com/DimensionDev/web3swift.git",
       "state" : {
-        "branch" : "fix-xcode-16",
-        "revision" : "d1c60ae9207b34f5493e76f1b0d42ec67b397f51"
+        "branch" : "fix-xcode-26",
+        "revision" : "31f1dc7ddfb3049ba0702682ff822c2878f082cf"
       }
     }
   ],
