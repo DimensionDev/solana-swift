@@ -52,6 +52,10 @@ public struct JSONRPCResponse<Entity: Decodable>: APIClientResponse {
 
 public class JSONRPCResponseDecoder<Entity: Decodable> {
     public func decode(with data: Data) throws -> Entity {
-        try JSONDecoder().decode(Entity.self, from: data)
+        do {
+            return try JSONDecoder().decode(Entity.self, from: data)
+        } catch {
+            throw error
+        }
     }
 }
