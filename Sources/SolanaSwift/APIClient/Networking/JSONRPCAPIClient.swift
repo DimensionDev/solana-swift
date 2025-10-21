@@ -174,7 +174,7 @@ public class JSONRPCAPIClient: SolanaAPIClient {
         return result.value
     }
     
-    public func getTokenAccountsByOwnerV2<T: BufferLayout>(
+    public func getTokenAccountsByOwnerV2<T: Codable>(
         pubkey: String,
         params: OwnerInfoParams?,
         configs: RequestConfiguration?,
