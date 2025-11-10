@@ -18,7 +18,7 @@ let package = Package(
     ],
     dependencies: [
         // Main depedencies
-        .package(url: "https://github.com/DimensionDev/web3swift.git", branch: "fix-xcode-26"),
+        .package(url: "https://github.com/DimensionDev/web3swift-zksync.git", branch: "zksync2-3.1.2"),
         .package(url: "https://github.com/bitmark-inc/tweetnacl-swiftwrap.git", from: "1.0.2"),
         .package(url: "https://github.com/bigearsenal/task-retrying-swift.git", from: "2.0.0"),
 
@@ -29,7 +29,7 @@ let package = Package(
         .target(
             name: "SolanaSwift",
             dependencies: [
-                .product(name: "web3swift", package: "Web3swift"),
+                .product(name: "web3swift", package: "web3swift-zksync"),
                 .product(name: "TweetNacl", package: "tweetnacl-swiftwrap"),
                 .product(name: "Task_retrying", package: "task-retrying-swift"),
             ]
