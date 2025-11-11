@@ -55,12 +55,12 @@
       }
     },
     {
-      "identity" : "web3swift-zksync",
+      "identity" : "web3swift",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/DimensionDev/web3swift-zksync.git",
+      "location" : "https://github.com/DimensionDev/web3swift.git",
       "state" : {
-        "branch" : "zksync2-3.1.2",
-        "revision" : "8dc46c0a1fb46f6aa952fe5874799a6801167100"
+        "branch" : "fix-xcode-26",
+        "revision" : "62c7efdb6b3bee045ae2c5cd477ac6a7857dd2eb"
       }
     }
   ],
